@@ -5,6 +5,7 @@ class CreateEmployees < ActiveRecord::Migration[6.0]
       t.string :position
       t.integer :hoursWorked
       t.integer :hoursScheduled
+      t.integer :employeeID
 
       t.timestamps
     end
