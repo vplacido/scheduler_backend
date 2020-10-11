@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :shifts
   resources :managers
   resources :companies
   resources :employees
